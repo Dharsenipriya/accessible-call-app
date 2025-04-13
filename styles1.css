@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    
+    /* Background Image */
+    background-image: url('https://media.istockphoto.com/id/1284378353/photo/young-indian-farmer-using-smartphone-in-cotton-field.jpg?s=612x612&w=0&k=20&c=aX43jYLkw0Hmd8HJPM8krTWqDu6JHos4wsd1p9kzwXQ=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  /* Container */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Headings */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* New Post Section */
+  #new-post-section input,
+  #new-post-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #new-post-section button {
+    padding: 10px 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #new-post-section button:hover {
+    background-color: #28a745;
+  }
+  
+  /* Card (Post) Styles */
+  .card {
+    border: 1px solid #e0e0e0;
+    background: #fdfdfd;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .card:hover {
+    background: #f7f7f7;
+  }
+  
+  .card-header {
+    margin-bottom: 8px;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .card-description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Detail View Styles */
+  #post-detail-section {
+    background: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    padding: 16px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .detail-header {
+    margin-bottom: 12px;
+  }
+  
+  .detail-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .detail-meta {
+    color: #666;
+    font-size: 0.8rem;
+  }
+  
+  .detail-content {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles in Detail */
+  #post-detail-section button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  #post-detail-section button:hover {
+    background-color:#28a745 ;
+  }
+  
+  /* Comments Section */
+  .comments-section h3 {
+    margin: 10px 0;
+  }
+  
+  .comment-card {
+    border: 1px solid #e0e0e0;
+    background: #fafafa;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+  }
+  
+  .add-comment textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-comment button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-comment button:hover {
+    background-color: #1e7e34;
+  }
+  

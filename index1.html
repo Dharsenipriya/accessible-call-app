@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Farmers Community Forum</title>
+  <link rel="stylesheet" href="styles1.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Farmers Community Forum</h1>
+    
+    <!-- New Post Section -->
+    <div id="new-post-section">
+      <h2>Create New Post</h2>
+      <input type="text" id="new-post-title" placeholder="Post title">
+      <textarea id="new-post-content" placeholder="What would you like to share with the community?" rows="4"></textarea>
+      <button id="create-post-btn">Post to Community</button>
+    </div>
+    
+    <!-- Posts List Section -->
+    <div id="posts-section"></div>
+    
+    <!-- Detailed Post View (hidden by default) -->
+    <div id="post-detail-section" style="display: none;"></div>
+  </div>
+  
+  <script src="script1.js"></script>
+</body>
+</html>
